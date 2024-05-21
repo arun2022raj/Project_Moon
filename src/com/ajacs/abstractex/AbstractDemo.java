@@ -11,6 +11,9 @@ public class AbstractDemo {
 		Triangle t=new Triangle(3,4,5);
 		t.draw();
 		t.calculateArea();
+		Triangle t2=new Triangle(3,4,5);
+		t2.draw();
+		t2.calculateArea();
 	}
 	
 
