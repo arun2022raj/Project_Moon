@@ -28,5 +28,8 @@ public class NestedTryCatchBlock {
 			System.out.println("Enter valid element which is lessthan 5");
 		}
 		sc.close();
+		
+		
+		
 	}
 }

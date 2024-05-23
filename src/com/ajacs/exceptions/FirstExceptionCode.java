@@ -11,14 +11,12 @@ public class FirstExceptionCode {
 		System.out.println("line5");
 		try {
 		System.out.println(10/0);
-		} catch(Exception e) {
+		}
+		finally
+		{
 			
 		}
-		System.out.println("line6");
-		System.out.println("line7");
-		System.out.println("line8");
-		System.out.println("line9");
-		System.out.println("line10");
+	
 	}
 
 }
