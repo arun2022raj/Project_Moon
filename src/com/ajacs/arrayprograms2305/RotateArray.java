@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class RotateArray {
 	public static int[] rot(int[] arr,int ele) {
-		int[] arr1= Arrays.copyOfRange(arr, arr.length-ele-1, arr.length);
-		int[] arr2=Arrays.copyOfRange(arr, 0, arr.length-ele-1);
+		int[] arr1= Arrays.copyOfRange(arr, arr.length-ele, arr.length);
+		int[] arr2=Arrays.copyOfRange(arr, 0, arr.length-ele);
 		int[] narr=new int[arr.length];
 		for (int i=0;i<narr.length;i++) {
 			if (i>=arr1.length) {
