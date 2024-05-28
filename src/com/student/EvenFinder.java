@@ -47,6 +47,7 @@ public class EvenFinder {
 		int[] a1=a;
 		System.out.println(a.equals(a1));
 		System.out.println(a.toString());
+		System.out.println(a.length);
 		
 	}
 }
