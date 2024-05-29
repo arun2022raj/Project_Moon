@@ -11,6 +11,7 @@ public class CommonEleArrays {
 					if (arr1[i] == arr2[j]) {
 						System.out.println(arr1[i]);
 						break;
+						break;
 					}
 				}
             }
