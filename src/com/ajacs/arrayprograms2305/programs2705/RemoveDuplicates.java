@@ -18,6 +18,10 @@ public class RemoveDuplicates {
 		}
 	}
 	
+	
+	
+	
+	
 	public static void removeDuplicates(int[] arr) {
 		Arrays.sort(arr);
 		System.out.print(arr[0] + " ");

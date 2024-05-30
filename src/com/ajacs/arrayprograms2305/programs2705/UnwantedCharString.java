@@ -8,12 +8,10 @@ public class UnwantedCharString {
 			arr[i]=arr[i].replaceAll(regex, "");
 		}
 		return arr;
-		
 	}
 	public static void main(String[] args) {
 		String[] arrs= {"arun123","rajesh456","jakkam789"};
-		System.out.println(Arrays.toString(name(arrs,"[j-k]")));
-		
+		System.out.println(Arrays.toString(name(arrs,"[1,2,3]")));
 	}
 
 }
