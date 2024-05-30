@@ -6,7 +6,7 @@ public class MaximumValue {
 		if ((arr.length==0) || (arr==null))
 			return null;
 		int max=0;
-		int min=(int) Double.POSITIVE_INFINITY;
+		int min=arr[0];
 		for (int i : arr) {
 			if (i>max)
 				max=i;
