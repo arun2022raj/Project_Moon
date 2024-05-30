@@ -25,6 +25,7 @@ public class CommonEleArrays {
 					}
 				}
             }
+			
 		}
 	}
 	public static void main(String[] args) {
