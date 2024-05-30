@@ -12,8 +12,7 @@ public class EmployeeCreater {
 		System.out.println(emp1.getSalary());
 		emp1.setSalary(1_00_00_000.0077);
 		System.out.println(emp1.getSalary());
-		emp1.setSalary(1_00_00_000.0077);
-		System.out.println(emp1.getSalary());
+		
 		
 	}
 
