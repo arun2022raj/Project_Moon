@@ -7,6 +7,7 @@ public class CharOccurrence {
 		for (int i=0;i<arr.length;i++) {
 			if(ele==arr[i]) {
 				c++;
+				break;
 			}
 		}
 		
