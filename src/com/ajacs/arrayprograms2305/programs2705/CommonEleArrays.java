@@ -32,6 +32,7 @@ public class CommonEleArrays {
 		int[] arr1= {1,0,3,2,4,2,4,7,43,4,68,2};
 		int[] arr2= {0,0,2,0,0,0,43,43,0,1,68,2,2};
 		commonElementsReturn1(arr1,arr2);
+		commonElementsReturn(arr1,arr2);
 	}
 
 }
