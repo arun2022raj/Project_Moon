@@ -3,6 +3,9 @@ import java.lang.Math;
 
 public class Circle extends Shape{
 	protected int radius;
+	Circle(){
+		
+	}
 	Circle(int radius){
 		this.radius=radius;
 	}
@@ -20,5 +23,7 @@ public class Circle extends Shape{
 		System.out.println("area of the circle : "+(Math.PI*(radius*radius)));
 		
 	}
+	
+		
 
 }

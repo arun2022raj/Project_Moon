@@ -1,4 +1,4 @@
-package com.ajacs.strings;
+	package com.ajacs.strings;
 
 public class VowelsConsonants {
 	public static void main(String[] args) {
