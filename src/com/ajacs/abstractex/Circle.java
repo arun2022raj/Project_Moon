@@ -1,6 +1,7 @@
 package com.ajacs.abstractex;
 import java.lang.Math;
 
+
 public class Circle extends Shape{
 	protected int radius;
 	Circle(){

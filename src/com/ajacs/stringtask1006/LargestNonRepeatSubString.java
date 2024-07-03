@@ -27,7 +27,7 @@ public class LargestNonRepeatSubString {
     }
 	
 	public static void main(String[] args) {
-		String s="abcabcbab";
+		String s="abcasgtydged";
 		System.out.println(LongestSubstring(s));
 		
 	}

@@ -1,5 +1,4 @@
 package com.ajacs.stringtask1006;
-
 import java.util.Arrays;
 
 public class AnogramCheck {
@@ -17,5 +16,4 @@ public class AnogramCheck {
 			System.out.println("given words are not anogram");
 		}
 	}
-
 }

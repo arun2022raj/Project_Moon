@@ -1,9 +1,11 @@
 package com.ajacs.stringtask1006;
 
 public class StringPermutation {
+	static int c;
 	public static void permute(String str,int l,int r) {
 		 	if(l==r) {
 		 		System.out.println(str);
+		 		c++;
 		 	}
 		 	else {
 		 		for(int i=l;i<=r;i++) {
@@ -22,7 +24,8 @@ public class StringPermutation {
         return String.valueOf(charArray);
 	}
 	public static void main(String[] args) {
-		String s="abc";
+		String s="a";
 		permute(s,0,s.length()-1);
+		System.out.println(c);
 	}
 }
