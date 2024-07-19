@@ -27,21 +27,21 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        Test k = new Test(1);
-        Test n1 = new Test(20);
-        Test n2 = new Test(20);
-        HashSet<Test> n = new HashSet<>();
-        n.add(k);
-        n.add(n1);
-        n.add(n2);
-        System.out.println(n.contains(new Test(1)));  // true
-        System.out.println(n.contains(new Test(20))); // true
-        System.out.println(n.contains(new Test(100))); // false
-        System.out.println(n.contains(n2));
-        for (Test t : n) {
-            System.out.println(t);
+//        Test k = new Test(1);
+//        Test n1 = new Test(20);
+//        Test n2 = new Test(20);
+//        HashSet<Test> n = new HashSet<>();
+//        n.add(k);
+//        n.add(n1);
+//        n.add(n2);
+//        System.out.println(n.contains(new Test(1)));  // true
+//        System.out.println(n.contains(new Test(20))); // true
+//        System.out.println(n.contains(new Test(100))); // false
+//        System.out.println(n.contains(n2));
+//        for (Test t : n) {
+//            System.out.println(t);
         }
 
 
-    }
 }
+
